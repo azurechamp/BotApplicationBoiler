@@ -4,11 +4,11 @@
     "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
   },
   {
-    "Prompt": "Welcome",
+    "Prompt": "Mid",
     "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
   },
   {
-    "Prompt": "Welcome",
+    "Prompt": "Another Message",
     "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
   }
 ]
