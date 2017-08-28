@@ -1,0 +1,14 @@
+[
+  {
+    "Prompt": "Welcome",
+    "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
+  },
+  {
+    "Prompt": "Mid",
+    "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
+  },
+  {
+    "Prompt": "Another Message",
+    "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
+  }
+]
