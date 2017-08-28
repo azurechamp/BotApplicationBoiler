@@ -1,7 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Security.AccessControl;
 using System.Threading.Tasks;
+using BotApplicationBoiler.Extensions;
+using BotApplicationBoiler.JsonModels;
+using BotApplicationBoiler.URLEndPoints;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
+using Newtonsoft.Json;
 
 namespace BotApplicationBoiler.Dialogs
 {
@@ -22,10 +29,19 @@ namespace BotApplicationBoiler.Dialogs
             // calculate something for us to return
             int length = (activity.Text ?? string.Empty).Length;
 
-            // return our reply to the user
-            await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+            //Get All Conversation Dialogs
+            var restult = await WebRequestExtension.GetConversationModelModelAsync(EndPointUrl.ConversationEndpoint);
+
+
+            //Dsiplays all prompts in JSON File
+            foreach (var msg  in restult)
+            {
+               await context.PostAsync(msg.Message);
+            }
 
             context.Wait(MessageReceivedAsync);
         }
+
+    
     }
 }

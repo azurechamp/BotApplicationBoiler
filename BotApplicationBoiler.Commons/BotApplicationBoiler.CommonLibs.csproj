@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <RootNamespace>BotApplicationBoiler.CommonLibs</RootNamespace>
+    <AssemblyName>BotApplicationBoiler.CommonLibs</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Common\CommonVars\" />
     <Folder Include="Common\GenericClasses\" />
   </ItemGroup>
 
