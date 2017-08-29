@@ -4,11 +4,51 @@
     "Message": "Hello, Welcome to THE CAKES. We provide you beset customized 3D and 2D cakes at your door step. \n\nFor what occasion you would like to buy the cake for?"
   },
   {
-    "Prompt": "Mid",
-    "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
+    "Prompt": "PeopleQuestion",
+    "Message": "That's great, How many people are you expecting?"
   },
   {
-    "Prompt": "Another Message",
-    "Message": "Hello, Welcome to Boilerplate Template of Bot Framework."
+    "Prompt": "TypeOfCake",
+    "Message": "What Type of Cake you would like to order \n\n1) 3D Cake P̶K̶R̶ ̶9̶0̶0̶  PKR 700 / lbs \n\n1) 2D Cream Cake P̶K̶R̶ ̶7̶0̶0̶  PKR 500 / lbs"
+  },
+  {
+    "Prompt": "Customization",
+    "Message": "How would you like to customize the cake?  \n\n1) Provide Picture \n\n2) Select from Trending customizations."
+  },
+  {
+    "Prompt": "PicCutom",
+    "Message": "Please reply with the picture for your customized cake."
+  },
+  {
+    "Prompt": "LibCustom",
+    "Message": "Comming Soon!"
+  },
+  {
+    "Prompt": "Disclaimer",
+    "Message": "**Minimum order size is 5 lbs that you can order. Our estimation for cake size is based on 6 People / 1 lbs."
+  },
+  {
+    "Prompt": "GetDate",
+    "Message": "What Date you'd like to get deliverd? e.g. Date Month Year , Date/Month/Year."
+  },
+  {
+    "Prompt": "GetTime",
+    "Message": "What Date you'd like to get deliverd? e.g. Hours:Minutes AM/PM  10:25 PM"
+  },
+  {
+    "Prompt": "GetAddress",
+    "Message": "Please enter your address where you'd like to get the cake delivered."
+  },
+  {
+    "Prompt": "GetPhone",
+    "Message": "We'd like to informe you when your cake is at your doorstep. Please enter your contact numner you want us to connect with you. e.g. 033#-#######"
+  },
+  {
+    "Prompt": "Boom",
+    "Message": "Awesome! Expect an email shortly for our side that would include your order!"
+  },
+  {
+    "Prompt": "GetEmail",
+    "Message": "Please enter your email address where we'd sent you the order status & summary. e.g. abc@xyz.com"
   }
 ]
